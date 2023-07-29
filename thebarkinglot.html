@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <title>The Barking Lot</title>
+</head>
+<body>
+  
+  <div class="container pt-5">
+    <p class="fs-4 mb-4">The Barking Lot</p>
+    <p class="fs-6 mb-4"></p>
+    <div class="row">
+      <div class="card m-auto" style="width: 50rem;">
+        <div class="card-body">
+          <h5 class="card-title">Please fill-in</h5>
+          <div class="col-12">
+            <label for="contractNumber" class="form-label mt-4">Contract Number</label>
+            <input class="form-control mt-2" type="text" id="contractNumber" aria-label="default input example">
+            <label for="firstName" class="form-label mt-4">Owner first name</label>
+            <input class="form-control mt-2" type="text" id="firstName" aria-label="default input example">
+            <label for="lastName" class="form-label mt-4">Owner last name</label>
+            <input class="form-control mt-2" type="text" id="lastName" aria-label="default input example">
+            <label for="dogName" class="form-label mt-4">Dog's name</label>
+            <input class="form-control mt-2" type="text" id="dogName" aria-label="default input example">
+            <label for="dogWeight" class="form-label mt-4">Dog's weight</label>
+            <input class="form-control mt-2" type="text" id="dogWeight" aria-label="default input example">
+            <label for="dateOfBoarding" class="form-label mt-4">Date of boarding</label>
+            <input class="form-control mt-2" type="date" id="dateOfBoarding"  aria-label="default input example">
+            <label for="numberOfDaysOfBoarding" class="form-label mt-4">Number of days for boarding</label>
+            <input class="form-control mt-2" type="text" id="numberOfDaysOfBoarding" aria-label="default input example">
+            
+            <div class="row">
+              <div class="col-6">
+                <label for="dailyWalk" class="form-label mt-4">Daily walk</label>
+                <select class="form-select" id="dailyWalk" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+
+                <label for="dailyIceCream" class="form-label mt-4">Daily ice-cream</label>
+                <select class="form-select" id="dailyIceCream" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <label for="bath" class="form-label mt-4">Bath on last day</label>
+                <select class="form-select" id="bath" aria-label="Default select example">
+                  <option selected disabled value="">..</option>
+                  <option value="Y">Yes</option>
+                  <option value="N">No</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="button" id="submit" class="btn btn-primary mt-4 float-end">Submit</button>
+
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class="result mt-4">
+        <div id="reunionsResult">
+          
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./theBarkingLot.js"></script>
+</body>
+</html>
+
+
