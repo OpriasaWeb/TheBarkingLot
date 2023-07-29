@@ -30,4 +30,4 @@ Display all the entered data along with the total fee for boarding, which is cal
 
   An additional $4 per day for dogs over 50 pounds; an additional $7 per day for dogs over 100 pounds
 
-  Additional fees include $3 per day for a walk, $1 per day for ice cream, and $20 for a bath on the last boarding day. If the client selects walks and treats, provide one treat for free. If the client selects walks, treats, and a bath provide one walk for free.
+  Additional fees include $3 per day for a walk, $1 per day for ice cream, and $20 for a bath on the last boarding day. If the client selects walks and treats, provide one treat for free. If the client selects walks, treats, and a bath, provide one walk for free.
